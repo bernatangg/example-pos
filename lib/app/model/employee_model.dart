@@ -9,7 +9,8 @@ class EmployeeModel {
   String? email;
   String? phone;
 
-  EmployeeModel({this.employeeType,
+  EmployeeModel({
+    this.employeeType,
     this.employeeCode,
     this.employeeId,
     this.ownerId,

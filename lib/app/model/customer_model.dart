@@ -4,7 +4,11 @@ class CustomerModel {
   String? email;
   num? walletBalance;
 
-  CustomerModel({this.id, this.name, this.email, this.walletBalance});
+  CustomerModel({
+    this.id,
+    this.name,
+    this.email,
+    this.walletBalance});
 
   CustomerModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
